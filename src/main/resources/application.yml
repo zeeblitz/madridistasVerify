@@ -4,8 +4,8 @@ discord:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/discord_bot
-    username: postgres
-    password: passw0rd!
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
 
   jpa:
     hibernate:
